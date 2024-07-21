@@ -3,6 +3,7 @@
 <head>
 	<title>Student Subject Tracking System</title>
 	<link rel="stylesheet" type="text/css" href="LoginLayout.css">
+	<link rel="stylesheet" href="Login.py">
 </head>
 <body>
 
@@ -34,7 +35,7 @@ your progress with no difficulty.</p>
 	<h2>Login Here:</h2>
 	<input type="email" name="email" placeholder="Enter e-mail here">
 	<input type="password" name="" placeholder="Enter password here">
-    <button class="btn"><a href="#">Login</a></button>
+    <button class="btn"><a href="Login.py">Login</a></button>
 <div class="forgot">
 	<a href="#">Forgot password?</a>
 </div>
