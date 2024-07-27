@@ -1,0 +1,7 @@
+services:
+  backend:
+    build:
+      target: builder
+    command: sh -c "cd src && python -m start \"dev\""
+    volumes:
+      - ../backend:/api
