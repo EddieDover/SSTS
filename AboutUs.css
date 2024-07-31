@@ -55,15 +55,16 @@ ul li a:hover{
     display: block;
     position: center;
     width: 50%;
-    padding-left:25%;
-    padding-top: 150px;
+    margin-left:25%;
+	padding-top: 120px;
 }
 
 .explanation h2{
     font-size: 24px;
+	text-align:center;
 }
 
 .explanation p{
     font-size: 20px;
-    
+    text-align:center;
 }
