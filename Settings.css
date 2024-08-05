@@ -75,15 +75,36 @@ ul li a:hover{
 	border-color: grey;
 }
 
+.option p{
+	margin-left: 5px;
+}
 .settings .option .eg_details{
 	display:block;
 	font-size: 12px;
 	opacity: 60%;
+	margin-left: 5px;
 }
 
 .settings .option .edit{
 	margin-left:92%;
+	margin-top: -12px;
 	width: 50px;
 	height: 25px;
 	#move_it-up
+}
+
+.option .dark_mode{
+	margin-top: 28px;
+	margin-left: 5px;
+}
+
+.option input{
+	float:right;
+	margin-right:10px;
+	margin-top:-12px;
+}
+
+.options .more{
+	padding-top: 28px;
+	margin-left: 5px;
 }
