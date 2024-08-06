@@ -15,7 +15,7 @@ services:
       context: ../
       dockerfile: .docker/backend/Dockerfile
       target: runner
-    command: sh -c "python -m start \"prod\""
+    command: sh -c "python -m main \"prod\""
     extra_hosts:
       - host:host-gateway
     environment:

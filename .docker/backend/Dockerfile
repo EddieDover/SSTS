@@ -16,7 +16,6 @@ RUN pip install poetry==1.8.3
 
 RUN poetry install
 
-
 FROM python:3.11.9-alpine as runner
 
 ENV DEPENDENCY_DIR=/usr/local/lib/python3.11/site-packages/

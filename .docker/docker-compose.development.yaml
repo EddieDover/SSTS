@@ -2,6 +2,6 @@ services:
   backend:
     build:
       target: builder
-    command: sh -c "cd src && python -m start \"dev\""
+    command: sh -c "cd src && python -m main \"dev\""
     volumes:
       - ../backend:/api
