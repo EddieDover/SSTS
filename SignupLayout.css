@@ -53,11 +53,12 @@ ul li a:hover{
 
 .sign_up{
 	width: 640px;
-	height: 440px;
+	height: 320px;
 	background: #ffffc7;
 	position: absolute;
-	top: 220px;
-	right: 520px;
+	position:center;
+	margin-top: 25vh;
+	margin-left: 70vh;
 	border-radius: 10px;
 	padding: 25px;
 }
