@@ -2,14 +2,15 @@
 #variables: name, durname, id, email, password, confirm_pass, valid(boolean),  
 
 def check_email(email):
-    valid=False
-    for i in range (0,len(email)):
-        if email[i]=="@":
-            for j in range (i,len(email)):
-                if email[i]==".":
-                    valid=True      
-        if valid==True:
+    valid = False
+    for i in range(0, len(email)):
+        if email[i] == "@":
+            for j in range(i, len(email)):
+                if email[j] == ".":
+                    valid = True
+        if valid == True:
             break
+#checks if the email is valid
 
 def check_password_symbol(password):
     valid=False
