@@ -2,6 +2,7 @@ from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 from kink import inject
 from sqlalchemy import Engine
+
 from infrastructure.entity.student import Student
 from infrastructure.db.session_manager import get_session
 
@@ -16,7 +17,7 @@ class RegisterController:
         self.router.add_api_route("", self.register_user, methods= ["POST"], status_code= 200)
 
     async def register_user(self) -> JSONResponse:
-        user = Student(email= "john@example.com", password= "password12", surname="smith", name="john")
+        user = Student(email= "email@mail.com", password= "pass!", surname="sname", name="name")
         with get_session(self.db) as session:
             session.add(user)
             session.commit()
